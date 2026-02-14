@@ -1,0 +1,17 @@
+2026/02/14 13:45:22 [notice] 1#1: start worker process 49
+2026/02/14 13:45:22 [notice] 1#1: start worker process 50
+2026/02/14 13:45:22 [notice] 1#1: start worker process 51
+2026/02/14 13:45:22 [notice] 1#1: start worker process 52
+2026/02/14 13:45:22 [notice] 1#1: start worker process 53
+2026/02/14 13:45:22 [notice] 1#1: start worker process 54
+2026/02/14 13:45:22 [notice] 1#1: start worker process 55
+2026/02/14 13:45:22 [notice] 1#1: start worker process 56
+2026/02/14 13:45:22 [notice] 1#1: start worker process 57
+172.17.0.1 - - [14/Feb/2026:13:45:55 +0000] "GET / HTTP/1.1" 200 615 "-" "curl/7.81.0" "-"
+[2J[HCONTAINER ID   NAME          CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O     PIDS
+8d2c3212a058   coming-soon   0.00%     20.99MiB / 15.31GiB   0.13%     5.76kB / 1.27kB   0B / 36.9kB   29
+/ # [6nnginx -v
+nginx version: nginx/1.29.5
+/ # [6n^C
+
+/ # [6n

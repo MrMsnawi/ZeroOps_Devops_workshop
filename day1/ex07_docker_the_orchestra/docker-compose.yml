@@ -1,0 +1,18 @@
+volumes:
+  db-data:
+
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "8080:80"
+    volumes:
+      - ./index.html:/usr/share/nginx/html/index.html
+  db:
+    image: postgres:15-alpine
+    environment:
+      POSTGRES_PASSWORD: secretpass
+      POSTGRES_DB: grademe
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
